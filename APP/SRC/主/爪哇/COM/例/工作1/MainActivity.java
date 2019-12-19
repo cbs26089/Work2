@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     @Override
                     public void onError(Throwable e) {
 
-                        Log.i("11111111111111ereeor", "onNext: 111111111111111111"+e.toString());
+                        Log.i("11111111111111ereeor", "onNext: 巴卡娜"+e.toString());
                     }
 
                     @Override
