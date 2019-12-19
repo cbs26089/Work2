@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     @Override
                     public void onNext(Bean bean) {
-                        Log.i("1111111111111111111", "onNext: 111111111111111111"+bean.toString());
+                        Log.i("1111111111111111111", "onNext: 阿拉啦啦啦拉拉"+bean.toString());
                     adapter.bean.addAll(bean.getData().getDatas());
                     adapter.notifyDataSetChanged();
                     }
